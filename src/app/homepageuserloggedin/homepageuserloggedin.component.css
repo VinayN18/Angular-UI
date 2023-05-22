@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&family=IBM+Plex+Sans:wght@300;400&family=Jockey+One&family=Lato&family=Martian+Mono:wght@300&family=Roboto+Slab:wght@200;300&family=Roboto:ital,wght@0,300;1,300&display=swap");
+* {
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+  font-family: "IBM Plex Sans";
+}
+.container1 {
+  background: #e5e5e5;
+}
+.container1 {
+  margin: auto;
+  width: 100vw;
+  height: 72px;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+.logo-name {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+  font-size: 24px;
+  margin-left: 7%;
+}
+.logo-name .p1 {
+  color: #27a365;
+  text-align: center;
+}
+.logo-name .p2 {
+  color: black;
+  text-align: center;
+}
+.logo-name img {
+  width: 20px;
+  height: 20px;
+}
+.search {
+  position: relative;
+  background-color: #f2f2f2;
+  width: 360px;
+  height: 42px;
+  border-radius: 21px;
+  margin-left: 14%;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+.icon1 {
+  margin-left: 5%;
+}
+.search p {
+  color: #5c5c5c;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 20px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
+}
+.profile img {
+  border-radius: 21px;
+  width: 36px;
+  height: 36px;
+}
+.profile p {
+  font-size: 14px;
+  padding: 15px;
+  font-weight: 400;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+}
+.container-2 {
+  width: 80vw;
+  background: #ffffff;
+  margin: 5px auto 0 auto;
+  height: 60px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+}
+.container-2 a {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+}
+.container-2 .a {
+  color: #000;
+  padding: 16px 0px 15px 0;
+  border-bottom: 1.5px solid black;
+}
+.container-2 .a1 {
+  padding: 15px;
+  color: #8a8a8a;
+}
+.container-2 .box-post {
+  background-color: #edeef0;
+  width: 130px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 33%;
+}
+.container-2 .post-svg {
+  padding: 5px 5px 5px 15px;
+}
+.container-2 .box-leave {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 0.8px solid #989899;
+  border-radius: 4px;
+  width: 134px;
+  height: 36px;
+  margin-top: 10px;
+  margin-left: 2%;
+}
+.split {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 9.5%;
+  width: 692px;
+}
+.card {
+  width: 692px;
+  height: 472px;
+  border: 1px solid #e0e0e0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin: 5px 0 5px 0;
+}
+.card img {
+  width: 692px;
+  height: 220px;
+}
+.inner-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.inner-card .article {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  margin: 15px 5px;
+}
+.inner-card .row img {
+  width: 20px;
+  height: 20px;
+  margin: 15px 0px 15px 3px;
+}
+.inner-card .row {
+  display: flex;
+  flex-direction: row;
+}
+.inner-card .matter {
+  width: 600px;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0 15px 0 15px;
+  vertical-align: middle;
+}
+.row span {
+  padding: 7px;
+  font-size: 20px;
+}
+.inner-card .matter-2 {
+  height: 25px;
+  width: 652px;
+  font-size: 19px;
+  color: #5c5c5c;
+  margin: 15px;
+}
+.inner-card .matter-3 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.matter-3 img {
+  width: 36px;
+  height: 36px;
+  border-radius: 21px;
+  margin: 15px;
+}
+
+.matter-3 .name {
+  font-size: 18px;
+  line-height: 23px;
+  padding: 5px;
+  font-weight: 600;
+  margin: 15px 0 15px 0;
+}
+.matter-3 .views {
+  position: absolute;
+  right: 110px;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 20px 0 15px 0;
+}
+.matter-3 .views p {
+  color: #525252;
+  padding: 0 10px;
+}
+.matter-3 .icon {
+  margin: 15px 0;
+  position: absolute;
+  border-radius: 2px;
+  background-color: #edeef0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px 8px 8px;
+  float: right;
+  right: 40px;
+}
+.matter-4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.inner-matter-4 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+.inner-matter-4 .date {
+  display: flex;
+  flex-direction: row;
+}
+.date span {
+  font-size: 15px;
+  margin: 5px 5px 5px 0;
+  padding-top: 2px;
+}
+.date p {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 5px;
+}
+.inner-matter-4 .location {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 10%;
+}
+.location span {
+  font-size: 15px;
+  margin: 5px 5px 5px 0;
+  padding-top: 2px;
+}
+.location p {
+  font-size: 15px;
+  margin: 5px 5px 5px 0;
+}
+.matter-4 button {
+  width: 652px;
+  height: 38px;
+  background: #ffffff;
+  border: 0.7px solid #a9aeb8;
+  border-radius: 8px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  text-align: center;
+  color: #e56135;
+  margin-bottom: 10px;
+}
+.card-mini {
+  width: 692px;
+  border: 1px solid #e0e0e0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+.card-mini .matter-4 button {
+  width: 652px;
+  height: 38px;
+  background: #ffffff;
+  border: 0.7px solid #a9aeb8;
+  border-radius: 8px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  text-align: center;
+  color: #02b875;
+  margin-bottom: 10px;
+}
+
+.container-4 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  flex-direction: column;
+  position: absolute;
+  float: right;
+  right: 10%;
+  top: 50px;
+}
+.container-4 .box1 {
+  display: flex;
+  flex-direction: row;
+}
+.box1 input {
+  width: 200px;
+  height: 18px;
+  font-size: 14px;
+  background-color: #ffffff;
+  text-indent: 0px;
+  color: black;
+  outline: 0;
+  border: 0;
+}
+.box1 .line {
+  border-left: 2px solid black;
+  height: 15px;
+  margin: 2px 5px;
+}
+.line-hori {
+  border-top: 0.4px solid #b8b8b8;
+  width: 250px;
+  margin: 5px 0;
+}
+.caution {
+  display: flex;
+  flex-direction: row;
+  color: #000;
+  size: 12px;
+  font-size: 12px;
+  margin: 30px 0 15px 0;
+}
+.caution span {
+  font-size: 15px;
+  padding: 5px 5px 5px 0px;
+}
+.caution p {
+  opacity: 0.5;
+  padding: 5px;
+  color: #000;
+}
+.thumpsup {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.thumpsup span {
+  padding: 0 10px 0 0;
+}
+.thumpsup p {
+  font-size: 14px;
+}
+.follow {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 10px;
+}
+.follow img {
+  width: 36px;
+  height: 36px;
+  border-radius: 21px;
+}
+.follow p {
+  font-size: 14px;
+  padding: 5px;
+  margin-left: 5%;
+  margin-top: 3px;
+}
+.follow button {
+  position: absolute;
+  font-size: 12px;
+  width: 60px;
+  height: 24px;
+  border-radius: 14px;
+  border: none;
+  background-color: #edeef0;
+  float: right;
+  right: 0;
+  margin-top: 5px;
+}
+.seemore {
+  position: relative;
+  margin-top: 30px;
+}
+.seemore p {
+  font-size: 12px;
+  color: #2f6ce5;
+  float: right;
+  right: 0;
+}
