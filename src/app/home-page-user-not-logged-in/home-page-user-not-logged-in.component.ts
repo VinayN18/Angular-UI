@@ -6,6 +6,7 @@ import { Component, HostListener, OnInit } from '@angular/core';
   styleUrls: [
     './home-page-user-not-logged-in.component.css',
     './home-page-user-not-logged-in-smaller-screen.component.css',
+    './combined-styles.css',
   ],
 })
 export class HomePageUserNotLoggedInComponent implements OnInit {

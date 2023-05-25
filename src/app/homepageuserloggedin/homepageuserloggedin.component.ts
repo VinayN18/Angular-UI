@@ -3,7 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-homepageuserloggedin',
   templateUrl: './homepageuserloggedin.component.html',
-  styleUrls: ['./homepageuserloggedin.component.css'],
+  styleUrls: [
+    './homepageuserloggedin.component.css',
+    '../home-page-user-not-logged-in/combined-styles.css',
+  ],
 })
 export class HomepageuserloggedinComponent {
   isHighlighted1 = false;

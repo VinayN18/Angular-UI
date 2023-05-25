@@ -48,15 +48,15 @@
   margin-bottom: 0;
   position: relative;
 }
-.logo-name {
+/* .logo-name {
   display: flex;
   flex-direction: row;
   padding: 20px;
   align-items: center;
   font-size: 24px;
   margin-left: 7%;
-}
-.logo-name .p1 {
+} */
+/* .logo-name .p1 {
   color: #27a365;
   text-align: center;
 }
@@ -91,7 +91,7 @@
   font-size: 16px;
   line-height: 18px;
   padding: 20px;
-}
+} */
 .profile {
   display: flex;
   flex-direction: row;
@@ -183,7 +183,7 @@
   flex-direction: row;
   position: relative;
 }
-.container-2 a {
+/*.container-2 a {
   font-size: 17px;
   display: flex;
   align-items: center;
@@ -200,7 +200,7 @@
 .container-2 .a1 {
   padding: 15px;
   color: #8a8a8a;
-}
+}*/
 .container-2 .box-post {
   position: absolute;
   background-color: #edeef0;
@@ -240,11 +240,11 @@
   padding-bottom: 2px;
   font-size: 20px;
 }
-.split {
+/* .split {
   display: flex;
   flex-direction: row;
   position: relative;
-}
+} */
 .container-3 {
   display: flex;
   flex-wrap: wrap;
@@ -272,7 +272,7 @@
   position: relative;
   margin: 0 15px;
 }
-.inner-card .article {
+/*.inner-card .article {
   font-size: 18px;
   font-weight: 500;
   line-height: 23px;
@@ -286,7 +286,7 @@
 .inner-card .row {
   display: flex;
   flex-direction: row;
-}
+}*/
 .inner-card .matter {
   max-width: 600px;
   width: 85%;
@@ -302,7 +302,7 @@
   color: #5c5c5c;
   margin: 0px 0;
 }
-.inner-card .matter-3 {
+/*.inner-card .matter-3 {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -330,7 +330,7 @@
   font-size: 14px;
   font-weight: 500;
   margin: 20px 0 15px 0;
-}
+}*/
 .matter-3 .views p {
   color: #525252;
   padding: 3px 10px;
@@ -351,7 +351,7 @@
   display: flex;
   flex-direction: column;
 }
-.inner-matter-4 {
+/*.inner-matter-4 {
   display: flex;
   flex-direction: row;
   padding-bottom: 10px;
@@ -383,7 +383,7 @@
 .location p {
   font-size: 15px;
   margin: 5px 5px 5px 0;
-}
+}*/
 .matter-4 button {
   max-width: 652px;
   width: 100%;
@@ -424,7 +424,7 @@
   margin-bottom: 10px;
 }
 
-.container-4 {
+/* .container-4 {
   display: flex;
   flex-wrap: wrap;
   max-width: 250px;
@@ -434,7 +434,7 @@
   float: right;
   right: 10%;
   top: 50px;
-}
+} */
 .container-4 .box1 {
   width: 100%;
   display: flex;
@@ -454,18 +454,18 @@
   outline: 0;
   border: 0;
 }
-.box1 .line {
+/*.box1 .line {
   border-left: 2px solid black;
   height: 15px;
   margin: 2px 5px;
-}
+}*/
 .line-hori {
   border-top: 0.4px solid #b8b8b8;
   max-width: 250px;
   width: 100%;
   margin: 5px 0;
 }
-.caution {
+/* .caution {
   display: flex;
   flex-direction: row;
   color: #000;
@@ -476,13 +476,13 @@
 .caution span {
   font-size: 15px;
   padding: 5px 5px 5px 0px;
-}
+} */
 .caution p {
   padding: 5px;
   color: #000;
 }
 
-.follow {
+/*.follow {
   display: flex;
   flex-direction: row;
   position: relative;
@@ -521,7 +521,7 @@
   color: #2f6ce5;
   float: right;
   right: 0;
-}
+}*/
 
 /* signup page CSS */
 .backdrop {
@@ -986,7 +986,7 @@ form .btn {
 .signup_login {
   visibility: hidden;
 }
-/* @media screen and (max-width: 700px) {
+/*@media screen and (max-width: 700px) {
   .container1 {
     height: 24px;
     visibility: hidden;
@@ -1236,4 +1236,5 @@ form .btn {
   .login-account1 span {
     margin: 10px 0;
   }
-} */
+} 
+*/
