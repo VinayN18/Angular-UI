@@ -1144,11 +1144,19 @@ form .btn {
     right: 10px;
     top: 12px;
   }
+  .backdrop {
+    position: fixed;
+    width: 97vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 50;
+  }
   .login-container {
-    width: 96vw;
+    width: 97vw;
     left: 0;
     top: 30vh;
-    height: 450px;
+    height: 590px;
+    border-radius: 20px;
   }
   .login-logo {
     visibility: hidden;
@@ -1206,10 +1214,11 @@ form .btn {
     visibility: visible;
   }
   .login-container1 {
-    width: 96vw;
-    height: 450px;
+    width: 97vw;
+    height: 590px;
     left: 0;
     top: 30vh;
+    border-radius: 20px;
   }
   .login-head1 {
     height: 2px;
