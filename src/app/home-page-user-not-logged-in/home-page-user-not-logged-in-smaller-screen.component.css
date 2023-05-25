@@ -1,0 +1,251 @@
+@media screen and (max-width: 700px) {
+  .container1 {
+    height: 24px;
+    visibility: hidden;
+  }
+  .circle {
+    visibility: visible;
+  }
+  .image-box {
+    height: 100%;
+  }
+  .image-box img {
+    height: 236px;
+    width: 96.6vw;
+  }
+  .image-box span {
+    visibility: visible;
+    font-size: 20px;
+    top: 25px;
+  }
+  .image-box .computer {
+    top: 160px;
+    font-size: 18px;
+  }
+  .image-box .address {
+    top: 185px;
+    font-size: 14px;
+  }
+  .container-2 .a1 {
+    visibility: hidden;
+  }
+  .container-2 .a {
+    font-size: 14px;
+    border: none;
+    font-weight: 700;
+  }
+  .container-2 {
+    width: 90vw;
+    border: none;
+  }
+  .container-2 .box-leave {
+    background-color: transparent;
+    top: -230px;
+    width: 100px;
+  }
+  .box-leave1 {
+    background-color: transparent;
+    top: -230px;
+    width: 100px;
+  }
+  .box-leave span {
+    font-size: 0px;
+    visibility: hidden;
+  }
+  .container-2 .box-post {
+    right: 0;
+  }
+  .container-4 {
+    visibility: hidden;
+  }
+  .container-3 {
+    margin: 0;
+    width: 96.6vw;
+  }
+  .card {
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+    height: 120px;
+  }
+  .inner-card {
+    margin-left: 10px;
+  }
+  .inner-card .article {
+    font-size: 12px;
+  }
+  .inner-card .row img {
+    font-size: 15px;
+  }
+  .inner-card .matter {
+    width: 90%;
+    font-size: 16px;
+  }
+  .inner-card .matter-2 {
+    font-size: 14px;
+    width: 90vw;
+    margin: 5px 0;
+  }
+  .matter-3 img {
+    width: 36px;
+    height: 36px;
+  }
+  .matter-3 .name {
+    font-size: 14px;
+    margin: 5px;
+  }
+  .matter-3 .views {
+    position: absolute;
+    float: left;
+    left: 35px;
+    top: 10px;
+  }
+  .views span {
+    font-size: 0px;
+    visibility: hidden;
+  }
+  .matter-3 .icon {
+    position: absolute;
+    float: right;
+    right: 0;
+  }
+  .matter-4 {
+    margin: 0;
+  }
+  .matter-4 button {
+    width: 100%;
+  }
+  .card-mini .matter-4 button {
+    width: 100%;
+  }
+  .card-mini {
+    width: 100%;
+  }
+  .split {
+    width: 100vw;
+    flex-direction: row;
+  }
+  .date p {
+    font-size: 12px;
+    margin: 5px 0;
+    font-weight: 500;
+  }
+  .date span {
+    font-size: 12px;
+  }
+  .location p {
+    font-size: 12px;
+    margin: 5px 0;
+    font-weight: 500;
+  }
+  .location span {
+    font-size: 12px;
+  }
+
+  .xmark {
+    position: absolute;
+    color: #000000;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    visibility: hidden;
+  }
+  .xmark1 {
+    color: #000000;
+    right: 10px;
+    top: 12px;
+  }
+  .backdrop {
+    position: fixed;
+    width: 97vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 50;
+  }
+  .login-container {
+    width: 97vw;
+    left: 0;
+    top: 30vh;
+    height: 590px;
+    border-radius: 20px;
+  }
+  .login-logo {
+    visibility: hidden;
+    width: 0%;
+  }
+  .login-account {
+    width: 100%;
+  }
+  .login-account p {
+    margin: 10px 0;
+  }
+  .login-box1 {
+    margin: 0px auto 0px auto;
+  }
+  .login-head {
+    visibility: hidden;
+    height: 2px;
+  }
+  form .btn {
+    width: 50%;
+    cursor: pointer;
+  }
+  .sign_login {
+    position: absolute;
+    float: right;
+    right: 0px;
+    top: 265px;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+    visibility: visible;
+  }
+  .btn1 {
+    top: 300px;
+  }
+  .btn2 {
+    top: 340px;
+  }
+  .signinterms {
+    top: 400px;
+  }
+
+  .signup_login {
+    position: absolute;
+    float: right;
+    right: 0px;
+    top: 190px;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+    visibility: visible;
+  }
+  .login-container1 {
+    width: 97vw;
+    height: 590px;
+    left: 0;
+    top: 30vh;
+    border-radius: 20px;
+  }
+  .login-head1 {
+    height: 2px;
+    visibility: hidden;
+  }
+  .login-box11 {
+    margin: 0 auto;
+  }
+  .login-account1 {
+    width: 100%;
+  }
+  .icon p {
+    padding: 0px 5px;
+  }
+  .login-account1 span {
+    margin: 10px 0;
+  }
+}

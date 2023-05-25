@@ -986,7 +986,7 @@ form .btn {
 .signup_login {
   visibility: hidden;
 }
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
   .container1 {
     height: 24px;
     visibility: hidden;
@@ -1236,4 +1236,4 @@ form .btn {
   .login-account1 span {
     margin: 10px 0;
   }
-}
+} */

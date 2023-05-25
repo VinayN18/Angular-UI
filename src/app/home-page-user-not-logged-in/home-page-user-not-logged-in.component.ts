@@ -3,7 +3,10 @@ import { Component, HostListener, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home-page-user-not-logged-in',
   templateUrl: './home-page-user-not-logged-in.component.html',
-  styleUrls: ['./home-page-user-not-logged-in.component.css'],
+  styleUrls: [
+    './home-page-user-not-logged-in.component.css',
+    './home-page-user-not-logged-in-smaller-screen.component.css',
+  ],
 })
 export class HomePageUserNotLoggedInComponent implements OnInit {
   displaySignUpPage = 'none';
