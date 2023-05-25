@@ -250,22 +250,42 @@
           <div class="follow">
             <img src="assets/images/Rectangle 6.png" />
             <p>Leisure</p>
-            <button>Follow</button>
+            <button
+              (click)="toggleHighlight1()"
+              [ngClass]="{ highlighted: isHighlighted1 }"
+            >
+              {{ follow1 }}
+            </button>
           </div>
           <div class="follow">
             <img src="assets/images/Rectangle 6 (1).png" />
             <p>Activism</p>
-            <button>Follow</button>
+            <button
+              (click)="toggleHighlight2()"
+              [ngClass]="{ highlighted: isHighlighted2 }"
+            >
+              {{ follow2 }}
+            </button>
           </div>
           <div class="follow">
             <img src="assets/images/Rectangle 6 (2).png" />
             <p>MBA</p>
-            <button>Follow</button>
+            <button
+              (click)="toggleHighlight3()"
+              [ngClass]="{ highlighted: isHighlighted3 }"
+            >
+              {{ follow3 }}
+            </button>
           </div>
           <div class="follow">
             <img src="assets/images/Rectangle 6 (3).png" />
             <p>Philosophy</p>
-            <button>Follow</button>
+            <button
+              (click)="toggleHighlight4()"
+              [ngClass]="{ highlighted: isHighlighted4 }"
+            >
+              {{ follow4 }}
+            </button>
           </div>
           <div class="seemore">
             <p>See More...</p>
